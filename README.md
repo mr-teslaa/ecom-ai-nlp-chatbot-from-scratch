@@ -52,7 +52,6 @@ A cutting-edge AI chatbot optimized for e-commerce environments, combining natur
 - **PyTorch** for neural network implementation
 - **CPU friendly** - No GPU required for inference, though training benefits from one
 
-<setup_preparation>
 ## 🚀 Quick Start Guide
 1. Clone the repository:
 ```shell
@@ -62,7 +61,7 @@ cd ecom-ai-nlp-chatbot-from-scratch
 
 2. Create and activate virtual environment (Windows):
 ```shell
-python -m venv env
+> python -m venv env
 env\Scripts\activate
 ```
 
@@ -85,9 +84,23 @@ python train.py
 This script trains the model using `intents.json` and saves the neural network weights, vocabulary, and class tags in `data.pth`.
 
 ## Using the Chatbot
+
+For cli
 ```shell
-python chat.py
-# Ava: Ready to chat! Type 'quit' to exit
+python chat-cli.py
+
+Ava: Ready to chat! Type 'quit' to exit
+```
+
+For web applicaton
+```shell
+python webapp.py
+
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
 ```
 
 ## 🗂️ Project Structure
@@ -100,7 +113,6 @@ python chat.py
 │   └── models.py         # Neural network architecture
 └── data.pth              # Pretrained model artifacts
 ```
-</setup_preparation>
 
 ## 📜 License
 MIT License - see [LICENSE](LICENSE) for details
