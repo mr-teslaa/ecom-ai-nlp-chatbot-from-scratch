@@ -1,7 +1,7 @@
-<h1 align="center">
+<div align="center">
+<h1>
 🛍️ E-commerce NLP Chatbot (From Scratch)
 </h1> 
-<center>
 
 Opensource License under MIT
 <br /> 
@@ -17,7 +17,7 @@ Build with tools
 ![Web UI](./images/webui.png)
 ![CLI](./images/cli.png)
 
-</center>
+</div>
 
 ## Overview
 A cutting-edge AI chatbot optimized for e-commerce environments, combining natural language processing and neural networks for sophisticated customer interactions.
